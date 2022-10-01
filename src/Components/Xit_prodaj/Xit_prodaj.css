@@ -1,0 +1,109 @@
+.slick-slider{
+    padding: 0 20px !important;
+}
+
+.slick-slider .slick-arrow  {
+    width: 50px !important;
+    height: 50px !important;
+    background: url(../../images/Right.svg) no-repeat center center / 10px;
+}
+
+.slick-slide
+{
+    width: 270px !important;
+}
+
+.slick-slide:nth-child(odd){
+    margin-right: 120px !important;
+    
+}
+.slick-slide:nth-child(even){
+    margin:0 188px 0 88px !important;
+
+}
+ .slick-next, .slick-prev{
+    top: 0 !important;
+    transform: translate(0, 540px) !important;
+}
+.slick-list
+{
+    padding: 0 !important;
+}
+
+
+.slick-prev{
+    left: 880px;
+    transform:translate(540px) !important;
+    z-index: 2;
+    top: -100px !important;
+    background-color: #F5F5F5 !important;
+    border-radius: 50%
+}
+
+.slick-next
+{
+    right: 125px;
+    transform: rotate(180deg) !important;
+    top: -100px !important;
+    background-color: #F5F5F5 !important;
+    border-radius: 50%
+}
+ 
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: none !important;
+    outline: none;
+    background: url(../../images/rightgreen.svg) no-repeat center center / 10px;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    display: none !important;
+}
+
+.dxEVkZ {
+    margin: 40px 0 0px 0;
+}
+
+.IconButtonlike{
+    background: url(../../images/Heartgreen.svg) no-repeat center center / 30px;
+    color: transparent !important;
+    top: 12px;
+    left: 290px;
+    
+}
+
+.IconButtonlike:hover,
+.IconButtonlike:focus,
+.IconButtonlike:hover,
+.IconButtonlike:focus
+{
+    color: none !important;
+    outline: none;
+    background: url(../../images/HeartWhite.svg) no-repeat center center / 30px;
+    background-color: #72BF44 !important;
+}
+.IconButtonbuy{
+    background: url(../../images/Buygreen.svg) no-repeat center center / 30px;
+    color: transparent !important;
+    top: 80px;
+    left: 238px;
+    
+}
+
+.IconButtonbuy:hover,
+.IconButtonbuy:focus
+{
+    color: none !important;
+    outline: none;
+    background: url(../../images/Buywhite.svg) no-repeat center center / 30px;
+    background-color: #72BF44 !important;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color: #fff !important;
+}
